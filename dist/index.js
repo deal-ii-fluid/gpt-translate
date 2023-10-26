@@ -18673,6 +18673,7 @@ const askGPT = async (text, prompt) => {
             { role: openai_1.ChatCompletionRequestMessageRoleEnum.User, content: text },
         ],
         top_p: 0.5,
+        temperature: 0,
     })
         .catch((err) => {
         (0, core_1.error)(err);
