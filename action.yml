@@ -9,13 +9,13 @@ inputs:
     required: true
   model:
     description: 'OpenAI Model'
-    required: false
+    required: true
   prompt:
     description: 'Instructions to the model'
-    required: false
+    required: true
   basePath:
     description: 'Replace the base path of openai api'
-    required: false
+    required: true
   inputFiles:
     description: 'Input files to translate'
     required: false

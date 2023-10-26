@@ -1,3 +1,11 @@
+# 重新编译：
+npm install @vercel/ncc --save-dev
+npm install
+npm run build
+
+
+
+
 # 🌎 Markdown 翻译机器人
 [![可维护性](https://api.codeclimate.com/v1/badges/a13ea4f37913ba6ba570/maintainability)](https://codeclimate.com/github/3ru/gpt-translate/maintainability)
 [![GPT 翻译](https://github.com/3ru/gpt-translate/actions/workflows/gpt-translate.yml/badge.svg)](https://github.com/3ru/gpt-translate/actions/workflows/gpt-translate.yml)
